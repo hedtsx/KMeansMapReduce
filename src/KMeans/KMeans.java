@@ -97,12 +97,7 @@ public class KMeans {
 			context.write(new Text(Integer.toString(pNumber)), new Text(line));
 
 		}
-/***
-		@Override
-		public void cleanup(Context context) throws IOException, InterruptedException {
 
-		}
-***/
 	}
 
 
